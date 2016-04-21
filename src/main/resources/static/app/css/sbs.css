@@ -1,19 +1,18 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+body {
+    padding-top: 50px;
+}
+
 .jumbotron.special {
     position: relative;
-    min-height: 330px;
+    min-height: 400px;
     margin-bottom: 0;
     overflow: hidden;
     text-align: center;
-    background-color: #FAEBD7;
-    background-image: url("../img/0107_5.png");
-    background-repeat: no-repeat;
-    background-position: 25% center;
-    -webkit-background-size: 40% 40%;
-    background-size: 40%;
-
+    background-size: cover;
+    background: #FAEBD7 url("../img/patter.png") no-repeat 0% center;
 }
 
 .jumbotron.special .outline {
@@ -24,3 +23,47 @@
     font-family: Montserrat, sans-serif;
 }
 
+section.section {
+    padding :100px 0;
+}
+
+section.section.section-default {
+    background-color: #f9f9f9;
+}
+section.section.section-inverse {
+    background-color: #fff5eb;
+}
+section.section .subtitle {
+    margin-bottom: 22px;
+    text-align: center;
+}
+section.section .subtitle h2 {
+    margin-top: 0;
+}
+.point .point-box {
+    text-align: center;
+}
+.point .point-box .point-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 100px;
+    color: #fff;
+    border-radius: 100%;
+}
+.point .point-box .point-circle.start{
+    background-color: #4caf50;
+}
+
+.point .point-box .point-circle.replace {
+    background-color:#ff9800;
+}
+
+.point .point-box .point-circle.compass {
+    background-color: #2196f3;
+}
+
+.point .point-box .point-circle.japanese {
+    background-color: #f44336;
+}
